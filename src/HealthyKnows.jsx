@@ -1151,7 +1151,7 @@ export default function HealthyKnows() {
               userSelect:"none",
             }}
           >
-            <source src="/herovid.mp4" type="video/mp4" />
+            <source src={`${import.meta.env.BASE_URL}herovid.mp4`} type="video/mp4" />
           </video>
           {/* Gradient overlay */}
           <div style={{ position:"absolute", inset:0, zIndex:2, background:"linear-gradient(to bottom, rgba(11,37,69,0.45) 0%, rgba(11,37,69,0.35) 50%, rgba(11,37,69,0.55) 100%)" }} />
